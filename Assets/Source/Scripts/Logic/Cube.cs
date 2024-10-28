@@ -12,9 +12,9 @@ namespace Scripts.Logic
 
         private CubeMover _cubeMover;
 
-        public bool IsActivated { get; private set; }
-
         public event Action ActivationChanged;
+        
+        public bool IsActivated { get; private set; }
 
         private void Awake()
         {

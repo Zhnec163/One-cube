@@ -15,9 +15,9 @@ namespace Scripts.Logic
         private Coroutine _comboResetting;
         private WaitForSeconds _delay;
 
-        public int Points { get; private set; }
-
         public event Action<int> ComboChanging;
+
+        public int Points { get; private set; }
 
         private void Awake()
         {
